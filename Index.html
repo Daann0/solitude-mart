@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitude Mart</title>
+    <style>
+        html, body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            background: linear-gradient(to bottom, #0000FF, #000080); /* Solid blue gradient */
+            color: white;
+            text-align: center;
+            overflow: hidden; /* Prevent scrolling */
+        }
+        header {
+            background: transparent;
+            padding: 20px 0;
+            color: #d4b836;
+            font-size: 5em;
+            font-weight: bold;
+            text-shadow: 6px 6px 2px #ae362c; /* Sharp orange shadow */
+        }
+        .content {
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 160px); /* Adjust height to account for header and footer */
+        }
+        .content iframe {
+            width: 640px; /* 4:3 ratio */
+            height: 480px; /* 4:3 ratio */
+            border: none;
+            box-shadow: 0 0 15px black;
+        }
+        footer {
+            background-color: transparent;
+            padding: 10px 0;
+            color: white;
+            font-size: 1.2em;
+            position: relative;
+        }
+        footer a {
+            color: #d4b836;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Solitude Mart
+    </header>
+    <div class="content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SPZ-sSL6If8?si=VigYS_pcDUZHVof8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <footer>
+        Made by Daan | <a href="http://www.solitudemart.com" target="_blank">www.solitudemart.com</a> | Call: 1-276-697-7429
+    </footer>
+</body>
+</html>
